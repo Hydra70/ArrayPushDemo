@@ -8,4 +8,4 @@ firstNames.unshift(question1);
 var question2 = prompt("Enter your last name");
 lastNames.unshift(question2);
 //display to the window both first and last name from the array with the length of both the arrays
-window.alert(firstNames[0] + " " + lastNames[0] + " " + firstNames.length + lastNames.length);
+window.alert(firstNames[0] + " " + lastNames[0] + "|" + firstNames.length + " " + lastNames.length);
